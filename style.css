@@ -7,7 +7,7 @@ body {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
   background-color: #ece3cd;
-  margin-top: 0%;
+  margin-top: 1%;
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -85,8 +85,8 @@ animation: fade_in 0.5s linear;
 	left:0%;
 	overflow:auto;
 	overflow-y:scroll;
-	height:50%;
-	padding-bottom:20%;
+	height:30%;
+	padding-top:0%;
 }
 
 .timeline {
