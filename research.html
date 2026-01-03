@@ -39,13 +39,14 @@ Project MARCH is a student-led research project where a multidisciplinary group 
 I was part of the software & control department of the 8th year of project MARCH. In this year, our goal was to design an exoskeleton that enabled the pilot to walk without crutches.<br>
 In this team, I was responsible for designing and programming the motion planning algorithms, along with the state estimation of the robot. Furthermore, I had the honour of presenting our software and motion planning design in front of a crowd of 500 people, which I thoroughly enjoyed.<br>
 For the motion planning, we researched various state-of-the-art locomotion techniques for bipedal locomotion. Here, I implemented a footstep-planner based MPC algorithm using ACADOS, along with an inverse kinematics solver using Pinocchio. I also designed and implemented the state estimation stack, which employed our encoders, torque sensors and IMUs to calculate the center of mass and zero moment point. Besides this, I implemented a bridge between the MuJoCo simulator and ROS 2 for plug-and-play simulations.
+	<div style="margin-top:200px;"></div>
 	</div>
 	
 	<div class="invis" id='stogl-robotics'>
 	
 For my internship, my aim was to design a ROS 2 software architecture for general machine tending tasks of manipulators. I started the project with two goals in mind: to be robot-agnostic, and task-agnostic. We believed this would be highly beneficial for the (partial) automatisation of a variety of general manipulator tasks with a high repeatability. By designing the architecture in such a way that it is very easy to both make use of another robot and to define the task differently without making many code changes, the setup becomes highly reusable for many companies, and does not require a high expertise in robotics-specific skills like ROS 2 or motion planning. As such, user-explainability and the ease at which tasks can be modified are a big priority in the project.<br>
 For this project, I modified the existing digital twin setup provided by the company and wrote my own high-level planning stack. This planning system is based on PDDL and is made modular in such a way that it becomes easy to define new tasks through only modifying the knowledge base rather than any deployed code, improving accessibility. For the motion planner, I employed Moveit2. 
-
+	<div style="margin-top:200px;"></div>
 	</div>
 		<div class="overlay" style="width:100%; height:25%; bottom:25%;"></div>
 	</div>
