@@ -85,7 +85,7 @@ animation: fade_in 0.5s linear;
 	left:0%;
 	overflow:auto;
 	overflow-y:scroll;
-	height:90%;
+	height:50%;
 	padding-bottom:20%;
 }
 
