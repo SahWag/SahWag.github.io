@@ -29,7 +29,6 @@ pointer-events: none;
 	text-align:left;
 	letter-spacing: 6px;
 	text-shadow: 8px 8px 0px #57b7ff;
-	overflow: auto;
 }
 
 .main{
@@ -53,7 +52,7 @@ animation: fade_in 0.5s linear;
 	margin:auto;
 	text-align:justify;
 	padding-left:0%;
-	
+	padding-top: 1%;
 	webkit-user-select: none; /* Safari */
   moz-user-select: none;    /* Firefox */
   ms-user-select: none;     /* IE 10+ */
